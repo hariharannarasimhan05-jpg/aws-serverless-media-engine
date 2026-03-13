@@ -1,0 +1,11 @@
+# Ignore local Terraform state and binaries
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Ignore your actual keys
+*.tfvars
+
+# Ignore generated ZIP files
+*.zip
